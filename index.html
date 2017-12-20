@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>To do List</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header class="header">
+      <h1>To do List</h1>
+    </header>
+    <main>
+      <form class="row" id="task-form">
+        <input id="task-input" type="text" placeholder="add task">
+        <button type="submit" id="task-button">Add</button>
+        <!--<input type="button" value="click me" onclick="myFunction()" />-->
+      </form>
+      <ul id="task-list"></ul>
+    </main>
+    
+    
+    
+    
+    <script src="functions.js"></script>
+    <script>
+    
+    // function myFunction(){
+      
+    //   var x = document.getElementsByClassName("a");
+    //   let taskcount = task.taskArray.length;
+    //     for(let i=0; i<taskcount; i++){
+    //       let item = task.taskArray[i];
+    //         if( item.status == 1){
+    //           alert(x[i].className);
+    //     x[i].className = "strike";
+    //   }
+    // }
+    // }
+    
+    </script>
+    
+    <template id="task-template">
+      <li data-id="" data-name="" data-status="" class="a">
+        <div class="task-row">
+          <p class="task-text"></p>
+          <div class="buttons">
+            <button class="task-action" data-function="urgent"></button>
+            <button class="task-action" data-function="status"></button>
+            <button class="task-action" data-function="delete"></button>
+          </div>
+        </div>
+      </li>
+    </template>
+  </body>
+</html>
