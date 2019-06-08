@@ -117,15 +117,15 @@ main {
 }
 
 #task-list li .task-row .buttons button[data-function=urgent] {
-    background-image: url(../images/caution.png)
+    background-image: url(images/caution.png)
 }
 
 #task-list li .task-row .buttons button[data-function=status] {
-    background-image: url(../images/check.png)
+    background-image: url(images/check.png)
 }
 
 #task-list li .task-row .buttons button[data-function=delete] {
-    background-image: url(../images/times.png)
+    background-image: url(images/times.png)
 }
 
 main #task-form {
